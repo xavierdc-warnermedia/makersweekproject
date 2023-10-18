@@ -1,0 +1,18 @@
+div {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.live-stream {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  aspect-ratio: 16/9;
+}
+
+.live-stream  iframe {
+  height: 100%;
+  width: 100%;
+}
